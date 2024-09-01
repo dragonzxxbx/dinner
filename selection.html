@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elige una Opción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="assets/cancion.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <div class="image-selection">
+        <div class="image-half" onclick="selectImage(this);">
+            <img src="assets/merlina.jpg" alt="Opción 1">
+        </div>
+        <div class="image-half" onclick="selectImage(this);">
+            <img src="assets/napoli.jpg" alt="Opción 2">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
